@@ -32,42 +32,48 @@
   <img src="./images/logo.svg" alt="Ping Logo">
 
   <!-- Title -->
-  <h1>We are launching soon!</h1>
+  <h1 class="mt-5"><span class=title__left> We are launching</span> <span class="title__right">soon!</span></h1>
 
   <!-- Text -->
-  <div class="main__content mb-3">
+  <div class="main__content mt-1 mb-4">
   Subscribe and get notified
   </div>
  <!-- Input field -->
-    <form class="main__input d-flex"> 
-      <div class="mb-3">
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="" placeholder="Your email adress...">
+    <form class="main__input d-flex mt-2 mb-4"> 
+      <div class="d-flex mb-3 col-12">
+
+        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" value="" placeholder="Your email adress...">
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <button type="button" class="btn btn-primary" id="notiBtn">Notify Me</button>
+
         </div>
         
-        <button type="button" class="btn btn-primary">Notify Me</button>
+       
       
     </form>
   <!-- /Input field -->
 
   <!-- Dash Image -->
-    <div class="main__img">
+    <div class="main__img mt-5 mb-5">
       <img class="dashboard mx-auto d-block" src="./images/illustration-dashboard.png" alt="Dashboard illustration">
     </div>
-</main>
 
-<!-- Foot  -->
-  <footer class="d-flex justify-content-center flex-column footer">
-      <!-- Font Awesome icons  -->  
-      <div class="footer__social ">
+    <div class="footer__social d-flex">
+      <div class="facebook socials">
         <i class="fab fa-facebook"></i>
+      </div>
+      <div class="twitter socials">
         <i class="fab fa-twitter"></i>
+      </div>
+      <div class="insta socials">
         <i class="fab fa-instagram"></i>
       </div>
       
-      &copy; Copyright Ping. All rights reserved.
-   
-  </footer>
+    </div>
+    <div class="copyRight">&copy; Copyright Ping. All rights reserved.</div>
+</main>
+
+
 
 
   <!-- Bootstrap JavaScript -->

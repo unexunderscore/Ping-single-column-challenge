@@ -7,6 +7,14 @@ body {
 
 .container {
     align-items: center;
+    padding-left: 225px;
+    padding-right: 225px;
+}
+
+h1{
+    font-size: 48px;
+    align-items: center;
+    text-align: center;
 }
 
 #emailHelp {
@@ -19,6 +27,61 @@ body {
 }
 
 .footer{
-    font-size: 11px; 
     align-items: center;
+}
+
+.copyRight{
+    font-size: 10px;
+    margin-bottom: 2rem;
+    color: hsl(0, 0%, 59%);
+}
+
+#footer__social {
+    font-size: 20px;
+    
+}
+
+.socials{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.title__left{
+    color:hsl(0, 0%, 59%);
+}
+
+.title__right{
+    color:hsl(209, 33%, 12%);
+    font-weight: 700;
+
+}
+
+.main__input{
+    width: 74%;
+    height: 4.5rem;
+    
+}
+
+
+#inputEmail{
+    border-radius: 50px;
+    padding-left: 2rem;
+    
+    font-weight: 300;
+}
+
+#inputEmail::placeholder {
+    color: hsl(223, 100%, 88%);
+}
+
+
+
+
+#notiBtn {
+    width: 300px;
+    margin-left: 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
