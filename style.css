@@ -90,6 +90,10 @@ h1{
     font-weight: 300;
 }
 
+#inputEmail:focus{
+   box-shadow: none;
+}
+
 #inputEmail::placeholder {
     color: hsl(223, 100%, 88%);
 }
@@ -108,3 +112,21 @@ h1{
 #notiBtn:hover{
     background-color: hsl(223, 85%, 69%);
 }
+
+
+#emailWrong {
+
+    display: none; 
+    position: absolute;
+    left: 0;
+    padding-left: 27rem;
+    margin-top: 4rem;
+    text-align: left;
+    font-style: italic;
+
+    font-size: 12px;
+    font-weight: 300;
+    color:hsl(354, 100%, 66%);
+
+}
+
