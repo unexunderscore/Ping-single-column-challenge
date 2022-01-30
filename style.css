@@ -57,12 +57,20 @@ h1{
 }
 
 .socials:hover{
+    background-color: #0d6efd;
     cursor: pointer;
+    border: none;
 }
 
 .fa-facebook, .fa-twitter, .fa-instagram {
     color: #0d6efd;
 }
+
+.socials:hover .fa-facebook, .socials:hover .fa-twitter, .socials:hover .fa-instagram{
+    color: white;
+    
+} 
+
 .svg-inline--fa{
     vertical-align: middle;
 }
