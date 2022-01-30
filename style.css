@@ -31,19 +31,40 @@ h1{
 }
 
 .copyRight{
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 2rem;
     color: hsl(0, 0%, 59%);
 }
 
 #footer__social {
-    font-size: 20px;
-    
+    font-size: 10px;
+   
 }
 
 .socials{
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+    margin-left: 1rem;
+    font-size: 16px;
+    
+
+    text-align: center;
+    height: 34px;
+    width: 34px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50%;
+}
+
+.socials:hover{
+    cursor: pointer;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram {
+    color: #0d6efd;
+}
+.svg-inline--fa{
+    vertical-align: middle;
 }
 
 .title__left{
@@ -62,7 +83,6 @@ h1{
     
 }
 
-
 #inputEmail{
     border-radius: 50px;
     padding-left: 2rem;
@@ -75,8 +95,6 @@ h1{
 }
 
 
-
-
 #notiBtn {
     width: 300px;
     margin-left: 15px;
@@ -84,4 +102,9 @@ h1{
     font-weight: 600;
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    border: none;
+}
+
+#notiBtn:hover{
+    background-color: hsl(223, 85%, 69%);
 }
