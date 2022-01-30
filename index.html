@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- Libre Franklin fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet"> 
+  <!-- /fonts -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Ping coming soon page</title>
@@ -12,28 +18,58 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- My own CSS -->
   <link rel="stylesheet" href="style.css">
- 
+  <!-- My own JavaScript -->
+
 </head>
 <body>
-  <main class="container">
+  <main class="container d-flex justify-content-center flex-column">
+
+  <!-- LOGO --> 
+  <img src="./images/logo.svg" alt="Ping Logo">
+
+  <!-- Title -->
   <h1>We are launching soon!</h1>
 
+  <!-- Text -->
+  <div class="main__content mb-3">
   Subscribe and get notified
+  </div>
+ <!-- Input field -->
+    <form class="main__input d-flex"> 
+      <div class="mb-3">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="" placeholder="Your email adress...">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        
+        <button type="button" class="btn btn-primary">Notify Me</button>
+      
+    </form>
+  <!-- /Input field -->
 
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
+  <!-- Dash Image -->
+    <div class="main__img">
+      <img class="dashboard mx-auto d-block" src="./images/illustration-dashboard.png" alt="Dashboard illustration">
+    </div>
 </main>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://twitter.com/unexunderscore">unexunderscore</a>.
-    </p>
+
+<!-- Foot  -->
+  <footer class="d-flex justify-content-center flex-column footer">
+  
+      <div class="footer__social ">
+        <img src="" alt="Facebook icon">
+        <img src="" alt="Twitter icon">
+        <img src="" alt="Instagram icon">
+      </div>
+      
+      &copy; Copyright Ping. All rights reserved.
+   
   </footer>
 
 
   <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
 
 </body>
 </html>

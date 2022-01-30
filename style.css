@@ -1,13 +1,24 @@
 body {
-    /* Testing if CSS correctly connected to HTML */
-    background-color: tomato;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    margin-top: 12vh;
 }
 
-.attribution{
+.container {
+    align-items: center;
+}
+
+#emailHelp {
+    display: none;
+}
+
+.dashboard{
+    width: 75%;
+    margin: auto;
+}
+
+.footer{
     font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+    align-items: center;
 }
