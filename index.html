@@ -29,7 +29,7 @@
   <main class="container d-flex justify-content-center flex-column">
 
   <!-- LOGO --> 
-  <img src="./images/logo.svg" alt="Ping Logo">
+  <img src="./images/logo.svg" alt="Ping Logo" class="ping-logo">
 
   <!-- Title -->
   <h1 class="mt-5"><span class=title__left> We are launching</span> <span class="title__right">soon!</span></h1>
@@ -39,19 +39,20 @@
   Subscribe and get notified
   </div>
  <!-- Input field -->
-    <form class="main__input d-flex mt-2 mb-4"> 
+    <form class="main__input d-flex mt-2"> 
       
-      <div class="d-flex mb-3 col-12">
+      <div class="d-flex mb-3 col-12 mobilRow">
 
         <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Your email adress..." value="">
         
         <button onclick="return isEmpty()" value type="button" class="btn btn-primary" id="notiBtn">Notify Me</button>
-        <div id="emailWrong" class="form-text">Please provide a valid email address.</div>
+        <div class="info">
+          
         </div>
-        
-       
+        </div>
       
     </form>
+    <div id="emailWrong" class="form-text">Please provide a valid email address.</div>
   <!-- /Input field -->
 
   <!-- Dash Image -->

@@ -123,18 +123,60 @@ h1{
 
 
 #emailWrong {
-
     display: none; 
-    position: absolute;
-    left: 0;
-    padding-left: 27rem;
-    margin-top: 4rem;
-    text-align: left;
-    font-style: italic;
+    width: 70%;
+    padding-left: 0;
+    margin-top: auto;
 
+    
+
+    font-style: italic;
     font-size: 12px;
     font-weight: 300;
     color:hsl(354, 100%, 66%);
 
 }
 
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+
+    .container{
+        padding: 0;
+    }
+
+    .ping-logo{
+        margin-top: 1rem;
+        width: 15%;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+    .main__content{
+        font-size: 12px;
+    }
+    .mobilRow{
+        flex-direction: column;
+        
+    }
+    #notiBtn{
+        margin: 0.5rem 0 0 0;
+        width: 100%;
+    }
+
+    #emailWrong{
+       margin-top: -2rem;
+    
+        
+    }
+    .form-text{
+        margin-bottom: 2rem;
+    }
+    .footer__social{
+        margin-top: 1rem;
+    }
+
+    .copyRight{
+        font-size: 10px;
+    }
+  }
