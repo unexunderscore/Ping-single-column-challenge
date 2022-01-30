@@ -28,7 +28,7 @@ function myFunction(x) {
     if (x.matches && small.classList.contains("d-flex")) { // If media query matches
       btn.style.marginTop = "2rem";
     } else {
-        btn.style.marginTop = "0.5rem";
+        btn.style.marginTop = "0";
     }
   }
   
